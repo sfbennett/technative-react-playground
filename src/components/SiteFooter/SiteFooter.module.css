@@ -1,9 +1,9 @@
 .wrapper {
   padding: 1rem;
-  border: 1px solid lightgray;
+  border: 4px solid #96b9aa;
   display: flex;
   align-items: center;
   justify-content: center;
   color: white;
-  background: grey;
+  background: #aacdbe;
 }
