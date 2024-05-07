@@ -5,6 +5,7 @@ function SiteNav() {
   const navLinks = [
     { label: "Home", url: "/" },
     { label: "About", url: "/about" },
+    { label: "State", url: "/state" },
   ];
   return (
     <div className={styles.wrapper}>
