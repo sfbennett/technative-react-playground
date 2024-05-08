@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import styles from "./Props.module.css";
 
 function Product({ name, color, image }) {
@@ -6,7 +6,7 @@ function Product({ name, color, image }) {
     <div className={styles.fruitdiv}>
       <h2>{name}</h2>
       <p>Colour: {color}</p>
-      <img src={image} className={styles.fruitImg} />
+      <img src={image} className={styles.fruitImg} alt={name} />
     </div>
   );
 }
