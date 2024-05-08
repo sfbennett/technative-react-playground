@@ -33,7 +33,7 @@
 .activeLink,
 .inactiveLink {
   position: relative;
-  color: black;
+  color: #41444b;
   text-decoration: none;
   padding-bottom: 2px;
 }

@@ -4,6 +4,9 @@
   display: flex;
   justify-content: center;
   padding: 20px;
-
   font-family: "Roboto", sans-serif;
+}
+
+* {
+  color: #41444b;
 }
