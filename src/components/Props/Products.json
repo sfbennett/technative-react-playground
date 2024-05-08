@@ -2,31 +2,55 @@
   {
     "id": 1,
     "name": "Apples",
-    "color": "Green"
+    "color": "Green",
+    "image": "/images/apples.jpg"
   },
   {
     "id": 2,
     "name": "Bananas",
-    "color": "Yellow"
+    "color": "Yellow",
+    "image": "/images/bananas.jpg"
   },
   {
     "id": 3,
     "name": "Pears",
-    "color": "Green"
+    "color": "Green",
+    "image": "/images/pears.jpg"
   },
   {
     "id": 4,
     "name": "Blueberries",
-    "color": "Blue"
+    "color": "Blue",
+    "image": "/images/blueberries.jpg"
   },
   {
     "id": 5,
     "name": "Mangos",
-    "color": "Yellow"
+    "color": "Yellow",
+    "image": "/images/mango.jpg"
   },
   {
     "id": 6,
     "name": "Cherries",
-    "color": "Red"
+    "color": "Red",
+    "image": "/images/cherries.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Kiwis",
+    "color": "Green",
+    "image": "./images/kiwi.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Oranges",
+    "color": "Orange",
+    "image": "./images/oranges.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Raspberries",
+    "color": "Pink",
+    "image": "./images/raspberry.jpg"
   }
 ]

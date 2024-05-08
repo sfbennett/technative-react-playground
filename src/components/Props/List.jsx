@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from "react";
 import Product from "./Product";
+import styles from "./Props.module.css";
 
 function List({ products }) {
   return (
-    <div>
-      <h1>Fruit Products</h1>
-      <ul>
+    <>
+      <h1 className={styles.heading}>Fruit Props</h1>
+      <div className={styles.fruitcontainer}>
         {products.map((product) => (
           <Product
             key={product.id}
@@ -14,8 +15,8 @@ function List({ products }) {
             image={product.image}
           />
         ))}
-      </ul>
-    </div>
+      </div>
+    </>
   );
 }
 

@@ -2,11 +2,32 @@
   box-sizing: border-box;
 }
 
+.fruitcontainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
 .fruitdiv {
-  border: 1px solid black;
-  margin: 5px;
+  margin: 30px;
   padding: 10px;
   display: flex;
   flex-direction: column;
   border-radius: 5px;
+  max-width: 250px;
+  justify-content: center;
+  align-items: center;
+  background: #eee7da;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.fruitImg {
+  max-width: 200px;
+  border-radius: 5px;
+}
+
+.heading {
+  text-align: center;
 }

@@ -5,7 +5,7 @@ import Products from "./Products.json";
 function Props() {
   return (
     <div className={styles.wrapper}>
-      <p>Props</p>
+      <p></p>
       <List products={Products} />
     </div>
   );
