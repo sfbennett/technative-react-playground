@@ -1,5 +1,5 @@
 .wrapper {
-  padding: 1rem;
+  padding: 6px;
   border: 4px solid #f0b478;
   display: flex;
   align-items: center;
@@ -10,11 +10,14 @@
 
 .links {
   display: flex;
+  gap: 50px;
 }
 
 .activeLink,
 .inactiveLink {
-  padding: 0 2rem;
+  padding: 2px;
+  list-style: none;
+  text-decoration: none;
 }
 
 .activeLink {
@@ -23,4 +26,31 @@
 
 .inactiveLink {
   color: #666;
+}
+
+/* Styling for nav hover animation */
+
+.activeLink,
+.inactiveLink {
+  position: relative;
+  color: black;
+  text-decoration: none;
+  padding-bottom: 2px;
+}
+
+.activeLink::after,
+.inactiveLink::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background: currentColor;
+  transition: width 0.4s ease-out;
+}
+
+.activeLink:hover::after,
+.inactiveLink:hover::after {
+  width: 100%;
 }

@@ -11,7 +11,7 @@ function Thermostat() {
   };
 
   return (
-    <div>
+    <div className={styles.thermocontainer}>
       <h2>Thermostat</h2>
       <p>Current Temperature: {temperature} °C</p>
       <button

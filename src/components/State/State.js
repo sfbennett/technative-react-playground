@@ -5,7 +5,7 @@ import Library from "./Library";
 function State() {
   return (
     <div className={styles.wrapper}>
-      <p>State</p>
+      <p></p>
       <Thermostat />
       <Library />
     </div>

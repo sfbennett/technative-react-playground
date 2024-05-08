@@ -18,8 +18,8 @@ function Library() {
   };
 
   return (
-    <div>
-      <h2>Borrowed Books</h2>
+    <div className={styles.bookcontainer}>
+      <h2>Borrowed Books Library</h2>
       <ul>
         {borrowedBooks.map((book, index) => (
           <li key={index}>
@@ -31,22 +31,31 @@ function Library() {
         ))}
       </ul>
       <button
-        onClick={() => borrowBook("React Fundamentals")}
+        onClick={() => borrowBook("Paul Takes the Form of a Mortal Girl")}
         className={styles.borrow}
       >
-        Borrow React Fundamentals
+        Paul Takes the Form of a Mortal Girl
       </button>
       <button
-        onClick={() => borrowBook("Ethel the Aardvark goes Quantity Surveying")}
+        onClick={() => borrowBook("Stone Butch Blues")}
         className={styles.borrow}
       >
-        Borrow Ethel the Aardvark goes Quantity Surveying
+        Stone Butch Blues
       </button>
       <button
-        onClick={() => borrowBook("Alice in Wonderland")}
+        onClick={() => borrowBook("In the Dream House")}
         className={styles.borrow}
       >
-        Borrow Alice in Wonderland
+        In The Dream House
+      </button>
+      <button
+        onClick={() => borrowBook("The Well of Loneliness")}
+        className={styles.borrow}
+      >
+        The Well of Loneliness
+      </button>
+      <button onClick={() => borrowBook("Orlando")} className={styles.borrow}>
+        Orlando
       </button>
     </div>
   );
