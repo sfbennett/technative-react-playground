@@ -5,7 +5,6 @@ import styles from "./Props.module.css";
 function List({ products }) {
   return (
     <div>
-      <h1 className={styles.heading}></h1>
       <div className={styles.fruitcontainer}>
         {products.map((product) => (
           <Product
