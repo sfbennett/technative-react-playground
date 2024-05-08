@@ -1,12 +1,57 @@
+* {
+  color: #41444b;
+  box-sizing: border-box;
+}
+
 .wrapper {
   background: #f4f7c5;
   width: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   padding: 20px;
   font-family: "Roboto", sans-serif;
 }
 
-* {
-  color: #41444b;
+/* Kermit section styling */
+
+.container {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.buttoncontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.frogimage {
+  width: 300px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.previous,
+.next,
+.button {
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 6px;
+  background: #c7dca7;
+  width: 80px;
+}
+
+.previous:hover,
+.next:hover,
+.button:hover {
+  background: #d5e5b2;
 }
