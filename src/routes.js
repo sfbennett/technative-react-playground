@@ -2,6 +2,8 @@ import Root from "./components/Root/Root";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import State from "./components/State/State";
+import Forms from "./components/Forms/Forms";
+import Props from "./components/Props/Props";
 
 const routes = [
   {
@@ -19,6 +21,14 @@ const routes = [
       {
         path: "state",
         element: <State />,
+      },
+      {
+        path: "forms",
+        element: <Forms />,
+      },
+      {
+        path: "props",
+        element: <Props />,
       },
     ],
   },
