@@ -2,71 +2,85 @@
   {
     "id": 1,
     "title": "kermit",
-    "image": "/images/suave.jpg"
+    "image": "/images/suave.jpg",
+    "description": "sauve kermit"
   },
   {
     "id": 2,
     "title": "kermit",
-    "image": "/images/smart.jpg"
+    "image": "/images/smart.jpg",
+    "description": "smart kermit"
   },
   {
     "id": 3,
     "title": "kermit",
-    "image": "/images/bike.jpg"
+    "image": "/images/bike.jpg",
+    "description": "bike riding kermit"
   },
   {
     "id": 4,
     "title": "kermit",
-    "image": "/images/drag.jpg"
+    "image": "/images/drag.jpg",
+    "description": "drag kermit"
   },
   {
     "id": 5,
     "title": "kermit",
-    "image": "/images/detective.jpg"
+    "image": "/images/detective.jpg",
+    "description": "detective kermit"
   },
   {
     "id": 6,
     "title": "kermit",
-    "image": "/images/space.jpg"
+    "image": "/images/space.jpg",
+    "description": "space kermit"
   },
   {
     "id": 7,
     "title": "kermit",
-    "image": "/images/denim.jpg"
+    "image": "/images/denim.jpg",
+    "description": "denim kermit"
   },
   {
     "id": 8,
     "title": "kermit",
-    "image": "/images/desk.jpg"
+    "image": "/images/desk.jpg",
+    "description": "corporate kermit"
   },
   {
     "id": 9,
     "title": "kermit",
-    "image": "/images/grease.jpg"
+    "image": "/images/grease.jpg",
+    "description": "biker kermit"
   },
   {
     "id": 10,
     "title": "kermit",
-    "image": "/images/turtleneck.jpg"
+    "image": "/images/turtleneck.jpg",
+    "description": "turtleneck kermit"
   },
   {
     "id": 11,
     "title": "kermit",
-    "image": "/images/beach.jpg"
+    "image": "/images/beach.jpg",
+    "description": "beach kermit"
   },
   {
     "id": 12,
     "title": "kermit",
-    "image": "/images/autumn.jpg"
+    "image": "/images/autumn.jpg",
+    "description": "coffee kermit"
   },
   {
     "id": 13,
     "title": "kermit",
-    "image": "/images/cowboy1.jpg"
+    "image": "/images/cowboy1.jpg",
+    "description": "cowboy kermit"
   },
   {
     "id": 14,
     "title": "kermit",
-    "image": "/images/cowboy.jpg"
+    "image": "/images/cowboy.jpg",
+    "description": "howdy kermit"
   }
 ]
