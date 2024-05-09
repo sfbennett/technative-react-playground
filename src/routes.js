@@ -4,6 +4,7 @@ import About from "./components/About/About";
 import State from "./components/State/State";
 import Forms from "./components/Forms/Forms";
 import Props from "./components/Props/Props";
+import Effect from "./components/Effect/Effect";
 
 const routes = [
   {
@@ -29,6 +30,10 @@ const routes = [
       {
         path: "props",
         element: <Props />,
+      },
+      {
+        path: "effect",
+        element: <Effect />,
       },
     ],
   },

@@ -17,7 +17,8 @@
 /* Temperature Buttons Styling */
 
 .buttonIncrease,
-.buttonDecrease {
+.buttonDecrease,
+.resetbutton {
   border: none;
   border-radius: 5px;
   background: #d37676;
@@ -26,6 +27,15 @@
   margin: 10px;
   width: 100px;
   text-transform: uppercase;
+  font-weight: bold;
+}
+
+.resetbutton {
+  background: #c7dca7;
+}
+
+.resetbutton:hover {
+  background: #d7ecb7;
 }
 
 .buttonIncrease {

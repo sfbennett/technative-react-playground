@@ -8,6 +8,7 @@ function SiteNav() {
     { label: "State", url: "/state" },
     { label: "Forms", url: "/forms" },
     { label: "Props", url: "/props" },
+    { label: "Effect", url: "/effect" },
   ];
   return (
     <div className={styles.wrapper}>

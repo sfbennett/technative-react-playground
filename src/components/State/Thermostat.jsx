@@ -10,6 +10,11 @@ function Thermostat() {
     setTemperature((prevTemperature) => prevTemperature + amount); // Adjusting temperature by amount
   };
 
+  // Function to reset temperature back to 20
+  const resetTemperature = () => {
+    setTemperature((prevTemperature) => (prevTemperature = 20));
+  };
+
   return (
     <div className={styles.thermocontainer}>
       <h2>Thermostat</h2>
@@ -19,6 +24,12 @@ function Thermostat() {
         className={styles.buttonIncrease}
       >
         Increase
+      </button>
+      <button
+        onClick={() => resetTemperature(1)}
+        className={styles.resetbutton}
+      >
+        Reset
       </button>
       <button
         onClick={() => adjustTemperature(-1)}
