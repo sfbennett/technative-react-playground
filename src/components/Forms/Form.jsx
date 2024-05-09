@@ -4,10 +4,14 @@ import styles from "./Forms.module.css";
 function Form() {
   const [text, setText] = useState("");
 
+  // Define handle change function
+  // Represent current value of input field
+
   function handleChange(event) {
     setText(event.target.value);
   }
 
+  // JSX code for UI of form component
   return (
     <form className={styles.form}>
       <p className={styles.heading}>React Form</p>
