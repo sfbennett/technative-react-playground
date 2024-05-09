@@ -1,37 +1,72 @@
 [
   {
     "id": 1,
-    "title": "frog",
+    "title": "kermit",
     "image": "/images/suave.jpg"
   },
   {
     "id": 2,
-    "title": "frog",
+    "title": "kermit",
     "image": "/images/smart.jpg"
   },
   {
     "id": 3,
-    "title": "frog",
+    "title": "kermit",
     "image": "/images/bike.jpg"
   },
   {
     "id": 4,
-    "title": "frog",
-    "image": "/images/cowboy.jpg"
+    "title": "kermit",
+    "image": "/images/drag.jpg"
+  },
+  {
+    "id": 5,
+    "title": "kermit",
+    "image": "/images/detective.jpg"
   },
   {
     "id": 6,
-    "title": "frog",
-    "image": "/images/denim.jpg"
+    "title": "kermit",
+    "image": "/images/space.jpg"
   },
   {
     "id": 7,
-    "title": "frog",
-    "image": "/images/desk.jpg"
+    "title": "kermit",
+    "image": "/images/denim.jpg"
   },
   {
     "id": 8,
-    "title": "frog",
+    "title": "kermit",
+    "image": "/images/desk.jpg"
+  },
+  {
+    "id": 9,
+    "title": "kermit",
     "image": "/images/grease.jpg"
+  },
+  {
+    "id": 10,
+    "title": "kermit",
+    "image": "/images/turtleneck.jpg"
+  },
+  {
+    "id": 11,
+    "title": "kermit",
+    "image": "/images/beach.jpg"
+  },
+  {
+    "id": 12,
+    "title": "kermit",
+    "image": "/images/autumn.jpg"
+  },
+  {
+    "id": 13,
+    "title": "kermit",
+    "image": "/images/cowboy1.jpg"
+  },
+  {
+    "id": 14,
+    "title": "kermit",
+    "image": "/images/cowboy.jpg"
   }
 ]
