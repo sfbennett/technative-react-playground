@@ -1,9 +1,10 @@
 import styles from "./Forms.module.css";
+import Form from "./Form.jsx";
 
 function Forms() {
   return (
     <div className={styles.wrapper}>
-      <p>React Forms</p>
+      <Form />
     </div>
   );
 }
