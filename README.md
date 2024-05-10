@@ -9,9 +9,9 @@ Within this project I have practiced the following:
 - JSX
 - Components
 - Props
-- Hooks - state and effect hooks
+- Hooks (state and effect hooks)
 - Styling for React components
-- Forms - controlled and uncontrolled components
+- Forms (controlled and uncontrolled components)
 - Deploying React apps with Netlify
 - React Router
 
