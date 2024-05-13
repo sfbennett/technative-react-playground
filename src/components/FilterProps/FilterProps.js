@@ -57,7 +57,7 @@ function FilterProps() {
         </p>
       )}
       <div>
-        {filteredArray.length == 0 ? (
+        {filteredArray.length === 0 ? (
           <p>sad</p>
         ) : (
           // Allows the styling around all 6, Pete helped with this part!
