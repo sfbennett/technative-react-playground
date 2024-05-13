@@ -10,7 +10,7 @@ Within this project I have practiced the following:
 - Components
 - Props
 - Hooks (state and effect hooks)
-- Styling for React components
+- Styling React components
 - Forms (controlled and uncontrolled components)
 - Deploying React apps with Netlify
 - React Router
@@ -21,6 +21,7 @@ Within this project I have practiced the following:
 - CSS
 - JavaScript
 - React
+- Netlify
 
 ## Screenshots 
 
