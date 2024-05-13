@@ -9,6 +9,7 @@ function SiteNav() {
     { label: "Forms", url: "/forms" },
     { label: "Props", url: "/props" },
     { label: "Effect", url: "/effect" },
+    { label: "Filtering Props", url: "/filterprops" },
   ];
   return (
     <div className={styles.wrapper}>

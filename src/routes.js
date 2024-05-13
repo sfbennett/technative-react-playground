@@ -5,6 +5,7 @@ import State from "./components/State/State";
 import Forms from "./components/Forms/Forms";
 import Props from "./components/Props/Props";
 import Effect from "./components/Effect/Effect";
+import FilterProps from "./components/FilterProps/FilterProps";
 
 const routes = [
   {
@@ -34,6 +35,10 @@ const routes = [
       {
         path: "effect",
         element: <Effect />,
+      },
+      {
+        path: "filterprops",
+        element: <FilterProps />,
       },
     ],
   },

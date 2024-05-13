@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #f4f7c5;
+  width: 100%;
+}
+
+/* Animals container styling */
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin-left: 80px;
+}
+
+.animaldiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 300px;
+  margin-right: 50px;
+  margin-bottom: 40px;
+}
+
+.animalimg {
+  width: 300px;
+  border-radius: 10px;
+}
+
+/* Input styling */
+
+.input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+  padding: 20px;
+}
+
+.searchbar {
+  border-radius: 5px;
+  border: 2px solid #aacdbe;
+  height: 25px;
+  width: 200px;
+}
+
+.animalnumber {
+  font-style: italic;
+}
+
+/* Button styling */
+
+.morebutton,
+.lessbutton {
+  border-radius: 3px;
+  padding: 10px;
+  margin-bottom: 40px;
+  width: 250px;
+  border: none;
+  background: #c7dca7;
+}
+
+.morebutton:hover,
+.lessbutton:hover {
+  background: #d2daff;
+}
