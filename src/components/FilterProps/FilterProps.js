@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import styles from "./FilterProps.module.css";
-import Filter from "./SearchInput.jsx";
-import data from "./Animals.json";
 import SearchInput from "./SearchInput.jsx";
+import data from "./Animals.json";
 import Animal from "./Animal.jsx";
 import ShowMoreButton from "./ShowMoreButton.jsx";
 import ShowLessButton from "./ShowLessButton.jsx";
