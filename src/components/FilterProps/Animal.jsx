@@ -1,5 +1,6 @@
 import styles from "./FilterProps.module.css";
 
+// Individual Animal components:
 function Animal({ id, title, description, image }) {
   return (
     <div className={styles.animaldiv}>

@@ -6,28 +6,35 @@ import Animal from "./Animal.jsx";
 import ShowMoreButton from "./ShowMoreButton.jsx";
 import ShowLessButton from "./ShowLessButton.jsx";
 
+// Define the number of animals to display per page:
 function FilterProps() {
   const animalsPerPage = 6;
 
+  // State hook to manage the number of animals displayed:
   const [animalsDisplayed, setAnimalsDisplayed] = useState(animalsPerPage);
 
+  // Function to increase the number of animals displayed:
   function increasePageSize() {
     setAnimalsDisplayed(animalsDisplayed + animalsPerPage);
   }
 
+  // Function to decrase the number of animals displayed:
   function decreasePageSize() {
     setAnimalsDisplayed(animalsDisplayed - animalsPerPage);
   }
 
+  // State hook to manage the search input value:
   const [input, setInput] = useState("");
 
+  // Filter the data array based on search input:
   const filteredArray = data.filter((animal) =>
     animal.title.toLowerCase().includes(input.toLowerCase())
   );
-
+  // Slice the filtered array based on number of animals displayed:
   const filteredSliceArray = filteredArray.slice(0, animalsDisplayed);
 
-  // Come back to this part and rewrite as normal function
+  // Come back to this part and rewrite as normal function //
+  // Map through the sliced array and create animal components:
   const animals = filteredSliceArray.map((animal) => {
     return (
       <div>
@@ -42,6 +49,8 @@ function FilterProps() {
     );
   });
 
+  // Render the FilterProps component UI to screen:
+  // Code for number of animals shown:
   return (
     <div className={styles.wrapper}>
       <SearchInput input={input} setInput={setInput} />
@@ -60,7 +69,7 @@ function FilterProps() {
         {filteredArray.length === 0 ? (
           <p>sad</p>
         ) : (
-          // Allows the styling around all 6, Pete helped with this part!
+          // Allows the styling around all 6 animals, Pete helped with this part!
           <div className={styles.container}>{animals}</div>
         )}
       </div>
