@@ -6,6 +6,7 @@ import Forms from "./components/Forms/Forms";
 import Props from "./components/Props/Props";
 import Effect from "./components/Effect/Effect";
 import FilterProps from "./components/FilterProps/FilterProps";
+import ReduxTest from "./components/ReduxTest/ReduxTest";
 
 const routes = [
   {
@@ -39,6 +40,10 @@ const routes = [
       {
         path: "filterprops",
         element: <FilterProps />,
+      },
+      {
+        path: "reduxtest",
+        element: <ReduxTest />,
       },
     ],
   },

@@ -1,0 +1,45 @@
+.wrapper {
+  background: #dcedc1;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  flex-direction: column;
+}
+
+/* Button styling */
+
+.upbutton,
+.downbutton {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin: 5px;
+  width: 95px;
+}
+.upbutton:hover,
+.downbutton:hover {
+  background: #fde49e;
+}
+
+/* Container styling */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 20px 10px 20px;
+  border-radius: 5px;
+  background: #b9d9b1;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.buttoncontainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.number {
+  font-family: "Press Start 2P", system-ui;
+}
