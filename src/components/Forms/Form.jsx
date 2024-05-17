@@ -21,6 +21,7 @@ function Form() {
         placeholder="Insert text here..."
         className={styles.input}
       ></input>
+      <p className={styles.text}>Your message will appear below...</p>
       <h2 className={styles.message}>{text}</h2>
     </form>
   );

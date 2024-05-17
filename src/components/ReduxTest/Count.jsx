@@ -9,6 +9,7 @@ export function Count() {
 
   return (
     <div className={styles.container}>
+      <h1 className={styles.heading}>Counter</h1>
       <h1 className={styles.number}>{counter}</h1>
       <div className={styles.buttoncontainer}>
         <div>
