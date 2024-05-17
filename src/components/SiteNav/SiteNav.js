@@ -11,6 +11,7 @@ function SiteNav() {
     { label: "Effect", url: "/effect" },
     { label: "Filtering Props", url: "/filterprops" },
     { label: "Redux", url: "/reduxtest" },
+    { label: "Thunk", url: "/thunk" },
   ];
   return (
     <div className={styles.wrapper}>

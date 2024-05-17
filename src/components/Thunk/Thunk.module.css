@@ -1,0 +1,59 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f4f7c5;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 25px 10px 25px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: #eee7da;
+  margin-top: 2%;
+}
+
+.dogcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.dogimage {
+  width: 300px;
+  border-radius: 5px;
+}
+
+.fetchbtn {
+  width: 100px;
+  padding: 5px;
+  margin-top: 12px;
+  border: none;
+  text-transform: uppercase;
+  background: #fbc687;
+  border-radius: 5px;
+  border: 2px solid #c99e6c;
+}
+
+.fetchbtn:hover {
+  background: #ffcf96;
+  border: 2px solid #c99e6c;
+}
+
+.fetchbtn:active {
+  background: #aacdbe;
+  border: 2px solid #89b9ad;
+}
+
+.header {
+  font-family: "Russo One", sans-serif;
+  text-transform: uppercase;
+  font-size: 40px;
+}

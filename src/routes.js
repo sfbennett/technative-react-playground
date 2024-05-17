@@ -7,6 +7,7 @@ import Props from "./components/Props/Props";
 import Effect from "./components/Effect/Effect";
 import FilterProps from "./components/FilterProps/FilterProps";
 import ReduxTest from "./components/ReduxTest/ReduxTest";
+import Thunk from "./components/Thunk/Thunk";
 
 const routes = [
   {
@@ -44,6 +45,10 @@ const routes = [
       {
         path: "reduxtest",
         element: <ReduxTest />,
+      },
+      {
+        path: "thunk",
+        element: <Thunk />,
       },
     ],
   },

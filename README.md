@@ -1,10 +1,10 @@
-# React App 
+# React App
 
-React App is a project that I created to practice using React. 
+React App is a project that I created to practice using React.
 
 ## Project Description
 
-Within this project I have practiced the following: 
+Within this project I have practiced the following:
 
 - JSX
 - Components
@@ -15,19 +15,19 @@ Within this project I have practiced the following:
 - Deploying React apps with Netlify
 - React Router
 
-## Technologies Used 
+## Technologies Used
 
 - HTML
 - CSS
 - JavaScript
 - React
 - Netlify
+- Redux
 
-## Screenshots 
+## Screenshots
 
 ![image](https://github.com/sfbennett/technative-react-playground/assets/156936136/89e22bbe-a37a-45a9-84e3-7a2397e94a22)
 
-
-## Live Project 
+## Live Project
 
 https://sbennett-react-app.netlify.app/
