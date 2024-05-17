@@ -15,11 +15,7 @@ function DogApp() {
     <div className={styles.container}>
       <h1 className={styles.header}>Fetch a Dog</h1>
       <div className={styles.dogcontainer}>
-        <img
-          src={dogImage}
-          alt="random dog image"
-          className={styles.dogimage}
-        />
+        <img src={dogImage} alt="photo of a dog" className={styles.dogimage} />
         <button
           onClick={() => handleFetchNewImage()}
           className={styles.fetchbtn}
